@@ -1,7 +1,7 @@
 def reverse_each_word(string)
   memo = ""
   string.split(' ').each { |word|
-    memo += word.reverse
+    memo += "#{word.reverse} "
   }
   p memo
 end
