@@ -3,7 +3,7 @@ def reverse_each_word(string)
   string.split(' ').each { |word|
     memo << word.reverse
   }
-  p memo
+  p memo.join(" ")
 end
 
 reverse_each_word("This is a long list of words")
