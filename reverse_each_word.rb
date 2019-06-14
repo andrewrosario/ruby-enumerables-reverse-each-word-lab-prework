@@ -1,6 +1,6 @@
 def reverse_each_word(string)
-  p string.each { |memo, word|
-    memo + word.reverse
+  string.each { |word|
+    puts word
   }
 end
 
