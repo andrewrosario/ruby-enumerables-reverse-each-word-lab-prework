@@ -1,8 +1,9 @@
 def reverse_each_word(string)
-  backwards = string.split(' ').each { |word|
-    word.reverse
+  memo = ""
+  string.split(' ').each { |word|
+    memo + word.reverse
   }
-  p backwards
+  p memo
 end
 
 reverse_each_word("This is a long list of words")
